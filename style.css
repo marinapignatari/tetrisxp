@@ -20,11 +20,10 @@ body {
 
 .arcade-container {
     background-color: #FFAA00;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: inline-block;
-    margin-bottom: 20px;
 }
 
 .arcade-screen {
@@ -34,15 +33,16 @@ body {
 }
 
 #gameCanvas {
-    background-color: #000;
     display: block;
     margin: 0 auto;
+    background-color: #000;
 }
 
 .text-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-top: 20px;
 }
 
 .text-left, .text-right {
