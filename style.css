@@ -15,18 +15,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
-.tetris-game {
+.arcade-container {
     background-color: #FFAA00;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.arcade-screen {
+    background-color: #2C2829;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 #gameCanvas {
-    background-color: #2C2829;
+    background-color: #000;
     display: block;
     margin: 0 auto;
 }
@@ -35,7 +43,6 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 20px;
 }
 
 .text-left, .text-right {
